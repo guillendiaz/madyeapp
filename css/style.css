@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url('../fonts/minimal.otf');
+:root{
+    --f7-theme-color:#007042;
+    --f7-navbar-bg-color: #F7F0F0; /*navbar*/
+    --f7-navbar-text-color: #fff;
+    --f7-bars-bg-color: #fff;/*toolbar*/
+	--color-cream: #F7F0F0;
+	--color-gris: #353535;
+	--color-negro: #020202;
+	--fondo-gris:#eaebeb;
+	--fondo-menu:#fafafa;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+	color: var(--color-negro);
+	margin-bottom: 5px;
+	margin-top: 10px;
+}
+
+p{
+	margin: 5px 0;
+}
+
+.navbar{
+	background-color: var(--color-cream);
+}
+
+.button{
+	font-size: 1.5em;
+	font-family: 'minimal';
+	border-radius: 0;
+	margin: 5% 0;
+}
+
+.homep{
+	background: url("../img/home.png") no-repeat center center fixed !important;
+  	background-size: cover !important;
+}
+
+.blogin{
+	color: var(--color-negro);
+	background-color: var(--color-cream);
+}
+
+.bregister{
+	background-color: var(--color-negro);
+}
+
+.bslide{
+	z-index: 100;
+	position: fixed;
+}
+
+.swiper-slide h2{
+	color: #fff;
+	font-family: 'minimal';
+	font-size: 4em;
+	padding-top: 30%;
+	padding-left: 42%;
+	z-index: 100;
+	position: fixed;
+}
+
+.swiper-slide span{
+	color: var(--color-negro);
+}
+
+.shome{
+	z-index: 100;
+	position: fixed;
+	padding-top: 100%;
+	padding-left: 80%;
+}
+
+.bshome{
+	color: #fff;
+	font-size: 4em;
+}
+
+.navbar .title{
+	font-size: 2em;
+	color: var(--color-negro);
+}
+
+.logose{
+	padding-top: 100%; 
+	text-align: center;
+}
+
+.img-fluid{
+	max-width: 100%;
+}
+
+.t_image{
+	margin: 0;
+	padding: 0;
+}
+
+.b_home{
+	z-index: 100;
+}
+
+.category_bottom{
+	width: 375px;
+	height: 407px;
+}
+
+.imgcards{
+	text-align: center;
+	padding: 5%;
+}
+
+.pcards{
+	padding-top: 30%;
+}
+
+.cart_nav{
+	background-color: var(--color-gris);
+}
+
+.cart_botton{
+	background-color: var(--color-cream);
+}
+
+.cart_page{
+	background-color: var(--color-gris);
+}
+
+.about_page{
+	color: #fff;
+	background-color: var(--color-gris);
+	text-align: center;
+}
+
+.about_logo{
+	
+}
+
+
+.toolbar{
+	background-color: var(--color-gris);
+}
+
+.toolbar-bottom a,
+.toolbar-bottom i{
+	color: var(--color-cream);	
+}
